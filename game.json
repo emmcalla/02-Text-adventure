@@ -1,22 +1,381 @@
 {
 	"START": {
-		"name": "",
-		"desc": "",
+		"name": "Introduction.",
+		"desc": "You are a reporter. A high profile senator has confessed to a crime, but he is confiding only in your paper to tell his story.
+		You sit in sterile, gray interogation room that you have been taken to by the city police. The senator sits in front of you. He's not handcuffed. He's wearing a crisp, clean orange jumpsuit and he smiles once you enter.
+		You settle into the chair across from him and the police have left the room. The senator would only speak to you on the condition that there be no cameras or recording devices. The camera in the corner of the room isn't lit up and looks downward.
+		Your boss has provided you with a list of topics to ask about in order to make the story, but he encouraged you to get the truth out of him.
+		List:
+		name, crime, jail, past life, sentence, guards, inmates, hobbies
+		
+		The man looks patiently at you with a brilliant smile.",
 		"exits": [
 			{
-				"exit": "EXIT1",
-				"target": "LOCATION2"
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
 			}
 		]
 	}
-	,"LOCATION2": {
-		"name": "",
-		"desc": "",
+	,"NAME": {
+		"name": "Ask about name.",
+		"desc": "The senator smiles and nods briefly. He says, yes, that would be an approriate question, reporter. But I'm quite surprised you don't already know my name.
+		My name is Silas Black. The senator crosses his legs elegantly and leans back in his steel chair.,
 		"exits": [
 			{
-				"exit": "EXIT1",
-				"target": "START"
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+			{
+				"exit": "Ask about name",
+				"target": "NAME2"
 			}
 		]
+	}
+	,"NAME2": {
+		"name": "Ask about name... again.",
+		"desc": "The man raises an eyebrow and leans forward a bit. You do know you already ask that right? He pauses and smiles.
+		it is a great name, isn't it?,
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"CRIME": {
+		"name": "Ask about crime.",
+		"desc": "The man raised his eyebrows in mock surprise and leaned forward, placing his hands on the table. 
+		He says, You're quite eager aren't you? I was expecting a little foreplay. The man nodded and spoke again. I'm sure that no matter what I'll say, I'll get an unfair trial. They'll try to tack on bribery or something like that.
+		It's all because I'm from Veepo. No one in Bowstien trusts rats from Veepo.",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"PASTLIFE": {
+		"name": "Ask about past life.",
+		"desc": "I'm from Veepo, he says with some distain and a brief frown. But I got out of that situation and became a senator. Algernon - sorry, he's my childhood friend - he's the one who actually convinced me to come talk to the media...",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"SENTENCE": {
+		"name": "Ask about sentence.",
+		"desc": "I'm not sure how long I'll spend in there, the senator mused, tapping his finger on his chin. How long do they lock people up for crimes of passion? Perhaps I'll get a few years shaved off for good behavoir.",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"GUARDS": {
+		"name": "Ask about guards.",
+		"desc": "The guards? He was a bit surprised by this quesiton. They're alright I suppose. One of them gave me a cigarette.",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"INMATES": {
+		"name": "Ask about inmates.",
+		"desc": "The man screwed his face up with disgust. They're not great...",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"HOBBIES": {
+		"name": "Ask about hobbies.",
+		"desc": "The man shrugged. There's really not much to do there. It's a limbo between being free and being caged, they don't give us much to do.",
+		"exits": [
+			{
+				"exit": "Ask about name",
+				"target": "NAME"
+			}
+			{
+				"exit": "Ask about crime",
+				"target": "CRIME"
+			}
+			{
+				"exit": "Ask about jail",
+				"target": "JAIL"
+			}
+			{
+				"exit": "Ask about past life",
+				"target": "PASTLIFE"
+			}
+			{
+				"exit": "Ask about sentence",
+				"target": "SENTENCE"
+			}
+			{
+				"exit": "Ask about guards",
+				"target": "GUARDS"
+			}
+			{
+				"exit": "Ask about inmates",
+				"target": "INMATES"
+			}
+			{
+				"exit": "Ask about hobbies",
+				"target": "HOBBIES"
+			}
+		]
+	}
+	"END": {
+		"name": "Ask for guards.",
+		"desc": "You've had enough questions. You raise your voice and call for the guards. The man just looks at you, not reacting other than his usual pompus aura. He seems pleased. The guard enters and as he leads you out of the room, he asks you a strange question. Who did he kill?",
+		"exits": [
+			{
+				"exit": "Algernon",
+				"target": "WIN"
+			}
+			{
+				"exit": "I don't know",
+				"target": "badEND"
+			}
+		]
+	}
+	"WIN": {
+		"name": "Ask for guards.",
+		"desc": "You win!",
+	}
+	"badEND": {
+		"name": "Ask for guards.",
+		"desc": "You lose!",
 	}
 }
